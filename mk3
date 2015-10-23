@@ -1,0 +1,2 @@
+echo " 编译 unpackbootimg ..."
+gcc unpackbootimg.c -w -o unpackbootimg.exe
