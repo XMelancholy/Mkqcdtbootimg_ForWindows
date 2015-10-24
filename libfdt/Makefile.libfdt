@@ -1,0 +1,4 @@
+# Makefile.libfdt
+LIBFDT_INCLUDES = fdt.h libfdt.h libfdt_env.h
+LIBFDT_SRCS = fdt.c fdt_ro.c fdt_wip.c fdt_sw.c fdt_rw.c fdt_strerror.c fdt_empty_tree.c
+LIBFDT_OBJS = $(LIBFDT_SRCS:%.c=%.o)

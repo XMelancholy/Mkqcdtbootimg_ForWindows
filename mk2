@@ -1,2 +1,0 @@
-echo " 编译 mkbootfs ..."
-gcc mkbootfs.c -w -o mkbootfs.exe

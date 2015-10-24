@@ -1,0 +1,4 @@
+# Makefile.libmincrypt
+LIBMINCRYPT_INCLUDES = rsa.h sha.h sha256.h hash-internal.h
+LIBMINCRYPT_SRCS = rsa.c sha.c sha256.c
+LIBMINCRYPT_OBJS = $(LIBMINCRYPT_SRCS:%.c=%.o)

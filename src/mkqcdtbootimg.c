@@ -40,7 +40,7 @@
 //#define	SHA_update SHA1_Update
 //#define	_SHA_final SHA1_Final
 //#else
-#include "mincrypt/sha.h"
+#include "sha.h"
 #define	_SHA_final(y,x) memcpy(y,SHA_final(x),SHA_DIGEST_SIZE)
 //#endif
 #include "bootimg.h"

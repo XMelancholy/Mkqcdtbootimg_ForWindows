@@ -7,7 +7,7 @@
 #include <limits.h>
 #include <libgen.h>
 
-#include "mincrypt/sha.h"
+#include "sha.h"
 #include "bootimg.h"
 
 typedef unsigned char byte;
